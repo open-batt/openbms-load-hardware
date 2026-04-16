@@ -1,0 +1,107 @@
+(footprint "24433"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hardware, inside through hole M3, height 10, Wuerth electronics 9774100360 (https://www.we-online.com/components/products/datasheet/9774100360R.pdf), generated with kicad-footprint-generator")
+	(tags "Mounting M3 9774100360")
+	(property "Reference" "REF**"
+		(at 0 -4.65 0)
+		(layer "F.SilkS")
+		(uuid "16e1d4cc-e339-496b-b4de-9e1375c65e5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "24433"
+		(at 0 4.65 0)
+		(layer "F.Fab")
+		(uuid "02508a9d-6798-40ee-933d-d0ecf8d56fc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6942cba5-12fb-44d3-b7a5-99f7d4a643e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2933a98e-2cd2-4535-830b-ba840185e74c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd allow_soldermask_bridges)
+	(fp_circle
+		(center 0 0)
+		(end 2.6 2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fed56906-bca3-474f-a9ad-d2733a3df3c3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.6 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "6f7eb0d4-bd83-4301-be46-bf089fcdfcdd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "35206938-5a9b-4b5a-a7e5-51b811e5ca61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0ade98ab-39ff-446f-aa49-39fcf54401af")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M3_H10mm_9774100360.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

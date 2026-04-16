@@ -1,0 +1,120 @@
+(footprint "fan_MF50101V1-1000U-A99"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "FAN"
+		(at -1 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44b7fc94-09ae-4753-a839-27f2ce9667f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "fan_MF50101V1-1000U-A99"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75173ec0-1624-4a90-962a-887bfeb47a5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "692eb8f3-841b-4e9a-93b2-e6061cf47115")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3809a017-370a-4b1e-9cc4-4d045a5419d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -25 -5)
+		(end 0 -5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "889d7c3d-ce25-4b41-8243-9a8346e318a6")
+	)
+	(fp_line
+		(start -25 5)
+		(end -25 -5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64eeac0a-dfb2-456b-9002-1786bf931b8f")
+	)
+	(fp_line
+		(start 0 -5)
+		(end 25 -5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ab8de7c-bf20-4190-af7a-7997c40d9272")
+	)
+	(fp_line
+		(start 25 -5)
+		(end 25 5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e9172cc-2a06-4c4e-a0cf-f5531fa027f3")
+	)
+	(fp_line
+		(start 25 5)
+		(end -25 5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec3a260e-5fcd-4696-8cf7-2754db19f446")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D models/MF50101V1-1000U-A99.stp"
+		(offset
+			(xyz 0 5 25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -180)
+		)
+	)
+)

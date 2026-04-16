@@ -1,0 +1,160 @@
+(footprint "L50J25RE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "R"
+		(at 0.7 -2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e0b351a-6d69-47bb-8aed-126f1684bf39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L50J25RE"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "866d1130-f641-4d81-8dd4-5837a2f7aefa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "705f35ee-10cc-459a-bbe6-96fe46074820")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbf254a0-4638-44e3-836e-f5b0f7ac30a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "L50J25RE"
+		(at 0 0 0)
+		(layer "B.Mask")
+		(hide yes)
+		(uuid "440a8b2f-b4dd-4f40-88e8-c33144363aa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "101x14 TH"
+		(at 0 0 0)
+		(layer "B.Mask")
+		(hide yes)
+		(uuid "f48b97d8-8c1c-48ca-987e-c494d61a7abe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -7.5)
+		(end 102 -7.5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd8c7369-0a1a-484c-8833-445365b134a8")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -7.5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfcb505d-ee25-4996-95c5-c1b3b81ecf0b")
+	)
+	(fp_line
+		(start 0 7.5)
+		(end 0 0)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d35b8d12-2c20-4f75-952c-93336b10753c")
+	)
+	(fp_line
+		(start 102 -7.5)
+		(end 102 7.5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0928b1f-6847-49a9-8a47-12a8cfccd6fd")
+	)
+	(fp_line
+		(start 102 7.5)
+		(end 0 7.5)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d6d9014-b5a1-4600-a8ce-c0d73b725c7e")
+	)
+	(pad "1" thru_hole oval
+		(at 6 -0.1)
+		(size 10.5 4.5)
+		(drill oval 8.5 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e9bfbf0-19d8-40ac-a221-71e1cdeacb66")
+	)
+	(pad "2" thru_hole oval
+		(at 96 0)
+		(size 10.5 4.5)
+		(drill oval 8.5 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e3d0868b-43e4-4578-8ed5-92d6cdd65b2f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D models/L50J25RE.stp"
+		(offset
+			(xyz 51 0 8.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

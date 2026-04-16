@@ -1,0 +1,199 @@
+(footprint "TC33X2503E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TC33X-2_1")
+	(tags "Variable Resistor")
+	(property "Reference" "VR**"
+		(at 0 3.8 0)
+		(layer "F.SilkS")
+		(uuid "8cf7a157-686f-450a-82f0-42079d1aa4b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TC33X2503E"
+		(at 0 0.168 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c6797706-2e3a-4cca-9181-5491a1678d17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3515ee7b-41c8-49f7-b372-6bdf5075cd70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5410019f-736c-46ea-b928-50164557b28c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -1.9)
+		(end -1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "590f8f68-48be-43a7-bfdc-ed81e9c8f9ba")
+	)
+	(fp_line
+		(start -1.052 2.625)
+		(end -1.052 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb0b7252-791f-47a0-881c-18493da45fb2")
+	)
+	(fp_line
+		(start -1.03 2.625)
+		(end -1.03 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d682e9d0-c854-46ad-ae6a-aab6c8a9a5d5")
+	)
+	(fp_line
+		(start 1.8 1.9)
+		(end 1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd2f550b-9e9e-4d17-a9bd-a4bb3a6746d1")
+	)
+	(fp_arc
+		(start -1.052 2.625)
+		(mid -1.041 2.614)
+		(end -1.03 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a84521b-b0fb-4220-a9f4-db7a42cebbde")
+	)
+	(fp_arc
+		(start -1.03 2.625)
+		(mid -1.041 2.636)
+		(end -1.052 2.625)
+		(stroke
+			(width 0.022)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bdbf3df-431f-4c42-8b6c-6afd2ae52ac7")
+	)
+	(fp_line
+		(start -1.8 -1.9)
+		(end 1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "508e4d78-3619-4e06-95e4-360ea38158f2")
+	)
+	(fp_line
+		(start -1.8 1.9)
+		(end -1.8 -1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df06b1c5-0f54-4cc5-83d8-39f8600cd33b")
+	)
+	(fp_line
+		(start 1.8 -1.9)
+		(end 1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49ee1df2-1c8b-43ee-9dc7-f0ecfa20b3ab")
+	)
+	(fp_line
+		(start 1.8 1.9)
+		(end -1.8 1.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0004c743-8f42-4565-90fa-8a48391a2995")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.168 0)
+		(layer "F.Fab")
+		(uuid "675bf087-7bcb-44cc-9756-8cdf3470f5fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 1.7 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f1970d30-2cb0-4ebc-9658-8bf738bbd159")
+	)
+	(pad "2" smd rect
+		(at 0 -1.55 90)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47fa7665-70e0-41cb-add7-1ef445f89de8")
+	)
+	(pad "3" smd rect
+		(at 1 1.7 90)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ae2eb91-fe92-4307-98b1-a1f9e91f9951")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D models/TC33X-2-103E.stp"
+		(offset
+			(xyz 0 0 0.279999997)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

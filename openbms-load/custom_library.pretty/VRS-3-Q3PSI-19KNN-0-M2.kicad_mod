@@ -1,0 +1,119 @@
+(footprint "VRS-3-Q3PSI-19KNN-0-M2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -9 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6564aee8-da7e-4e0c-b0ff-4162de21dfb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VRS-3-Q3PSI-19KNN-0-M2"
+		(at -15 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "53ff5b57-1477-4150-bd0a-2c32237bf51e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccc9810e-d53e-4fa6-a8ca-e93a73456438")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b713a01d-6a96-4af8-823b-e44379c37b3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -11 -7)
+		(end 11 7)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a7435877-8960-4a20-a192-f1ad80baa4de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -9.6 8.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d351e6ca-6daa-4e75-aba3-9631cdd66d57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -7 0)
+		(size 2.5 7)
+		(drill oval 1 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "53d9a4d9-aef8-4798-93a0-a22f8aa72404")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 2.5 7)
+		(drill oval 1 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "de34c1af-f732-4b4b-b1a8-0c67358080f2")
+	)
+	(pad "3" thru_hole roundrect
+		(at 7 0)
+		(size 2.5 7)
+		(drill oval 1 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "e0c4278b-bb56-4ec7-b499-911c1b750154")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D models/VRS-3-Q3PSI-19KNN-0-M2.step"
+		(offset
+			(xyz -11.5 -7.5 -5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
