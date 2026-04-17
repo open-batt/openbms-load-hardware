@@ -23237,7 +23237,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OpenBMS 450W Resistive Load"
+	(gr_text "OpenBMS 600W Resistive Load"
 		(at 140 285 0)
 		(layer "F.SilkS")
 		(uuid "5dd3a573-e999-490e-90c7-48a0ffb96ac9")
