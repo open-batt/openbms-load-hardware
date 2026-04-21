@@ -131,9 +131,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../production/rev A/gerber files/")
 		)
 	)
 	(net 0 "")
@@ -1049,6 +1049,7 @@
 		(property "Value" "XT60PW-F connector"
 			(at -3.6 7.5 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5ae0c75a-db93-4135-bb3e-a43545553f2f")
 			(effects
 				(font
@@ -2341,6 +2342,7 @@
 		(property "Value" "10u"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5e52a201-9bb9-4ab0-88c4-cff58054a6f2")
 			(effects
 				(font
@@ -3317,6 +3319,7 @@
 		(property "Value" "XT60PW-M connector"
 			(at 3.75 8.25 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1aa196c5-bfc3-4e5a-965e-6987ee5b60b8")
 			(effects
 				(font
@@ -4139,12 +4142,12 @@
 			(uuid "3d6570bc-fe67-4b42-bc72-8b3a5f8b23fe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0.1735 0)
 			(layer "F.Fab")
 			(uuid "a71fa8cb-8976-4d92-8044-4ba069dbea85")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.35 0.35)
 					(thickness 0.254)
 				)
 			)
@@ -4378,6 +4381,7 @@
 		(property "Value" "10u"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5a2f4633-7dc1-43a9-9c7d-cf65e30e5e41")
 			(effects
 				(font
@@ -4686,6 +4690,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "aac57182-ea7a-4a8d-93c4-9a88bf7e803b")
 			(effects
 				(font
@@ -4994,6 +4999,7 @@
 		(property "Value" "Green LED"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "18b5a600-c97b-45be-8312-855f3f5a5ee1")
 			(effects
 				(font
@@ -5482,6 +5488,7 @@
 			(at -9 -8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a4b28f7e-1124-490b-8988-4b94e043873f")
 			(effects
 				(font
@@ -5491,9 +5498,10 @@
 			)
 		)
 		(property "Value" "Switch"
-			(at -15 6.2 0)
+			(at 0.1 -3.8 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0139e16f-977f-4a63-b58f-8be2b3599962")
 			(effects
 				(font
@@ -5570,7 +5578,7 @@
 			(uuid "a4c15263-99e3-4f88-b2fb-c281f2a6e4e8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -9.6 8.4 0)
+			(at 0 4.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "05420dd3-7452-461b-9e62-f6806330de36")
@@ -6911,6 +6919,7 @@
 		(property "Value" "Red LED"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3a49dda4-1d46-470c-8042-a9db5d21f50b")
 			(effects
 				(font
@@ -11593,6 +11602,7 @@
 		(property "Value" "10u"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d4cd7a96-e961-4e1f-a9d1-d2db7997c5ec")
 			(effects
 				(font
@@ -12198,6 +12208,7 @@
 		(property "Value" "LMZM23600SILR"
 			(at 0 2.45 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "cf6e79c1-cdc3-45b5-86e0-96f043fb43a0")
 			(effects
 				(font
@@ -13848,6 +13859,7 @@
 		(property "Value" "10u"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "733ccb33-4fb3-4ae9-bf71-1df016d5fa55")
 			(effects
 				(font
@@ -16819,6 +16831,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5a8fcfbd-d293-49b2-8fbc-e8c183ca0fab")
 			(effects
 				(font
@@ -18170,6 +18183,7 @@
 		(property "Value" "JST connector"
 			(at 0 -5.8 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "60e63484-a9c2-48c1-a89e-777c325fd8a2")
 			(effects
 				(font
@@ -18685,6 +18699,7 @@
 		(property "Value" "JST connector"
 			(at 0 -5.8 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "2278d54d-2fed-41eb-85ef-ee724627cf92")
 			(effects
 				(font
@@ -19200,6 +19215,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "2251e314-1266-4def-a2f7-1a9cbd3adecc")
 			(effects
 				(font
@@ -19344,6 +19360,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "27e0f779-8995-4546-8515-c170dcee8c54")
 			(effects
 				(font
@@ -19488,6 +19505,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "f828e53d-0777-4437-961e-68cf6454863c")
 			(effects
 				(font
@@ -19632,6 +19650,7 @@
 		(property "Value" "JST connector"
 			(at 0 -5.8 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "9f45d4b4-2ed2-4a25-8892-af55d9f21f14")
 			(effects
 				(font
@@ -20147,6 +20166,7 @@
 		(property "Value" "JST connector"
 			(at 0 -5.8 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "e2e1b99e-c04b-4b07-bff6-0b783bc8c073")
 			(effects
 				(font
@@ -20662,6 +20682,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "93a38084-5987-4941-9cb9-da866a6969f5")
 			(effects
 				(font
@@ -20806,6 +20827,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "ec579a49-f470-4ae6-b095-07d5d8ff0b02")
 			(effects
 				(font
@@ -20950,6 +20972,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "8acdcd99-3f39-4b74-8942-f1157501c481")
 			(effects
 				(font
@@ -21094,6 +21117,7 @@
 		(property "Value" "JST connector"
 			(at 0 -5.8 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "d44e2cdc-ee5f-45f0-858b-da88e2d47ae8")
 			(effects
 				(font
@@ -21609,6 +21633,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "33d1c678-11cd-493b-a900-8f2f2166d8c7")
 			(effects
 				(font
@@ -21753,6 +21778,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "d296144e-b71c-443a-8bac-754262176251")
 			(effects
 				(font
@@ -21897,6 +21923,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "22e1fc26-25e2-4fc8-8163-de95386b72d1")
 			(effects
 				(font
@@ -22041,6 +22068,7 @@
 		(property "Value" "JST connector"
 			(at 0 -5.8 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "32c1c391-0416-420a-ab46-77e3078c053c")
 			(effects
 				(font
@@ -22556,6 +22584,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "0963168e-e6be-4883-b8d1-345d7ab80d53")
 			(effects
 				(font
@@ -22700,6 +22729,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "eeccc164-3c03-4c2c-b52e-8f3ac8962549")
 			(effects
 				(font
@@ -22844,6 +22874,7 @@
 		(property "Value" "Standoff M3 10mm"
 			(at 0 -4.65 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "ac172a61-4e7c-4c52-a083-585e72d4af0d")
 			(effects
 				(font
@@ -23970,6 +24001,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 13)
 		(uuid "a87274e7-8134-440e-8fee-9c7cf0432e05")
 	)
@@ -24962,6 +24994,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "0b7fcbbe-de0f-42c3-a8d5-8212bbcddd03")
 	)
@@ -24970,6 +25003,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "12342916-c354-4fbd-8a6c-3bcba0c74d5e")
 	)
@@ -24978,6 +25012,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "1d10daa8-cb50-424b-9cb8-378603003cc5")
 	)
@@ -24986,6 +25021,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "559f477f-dd3f-4b7a-9491-086e7b3668d7")
 	)
@@ -24994,6 +25030,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "66dbd89f-49c2-4a68-a11b-fed05b3a6544")
 	)
@@ -25002,6 +25039,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "6fb1fc7f-cd49-4aea-be31-697b37f42c17")
 	)
@@ -25010,6 +25048,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "89712946-1fb8-4c60-b03c-ad21e1ecf7c9")
 	)
@@ -25018,6 +25057,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "ba02d793-f1ff-409a-b736-a1417c8e050b")
 	)
@@ -25026,6 +25066,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "c4d715d2-6b56-4177-9ebc-4bbd7043d7b0")
 	)
@@ -25034,6 +25075,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "cc2d02ac-c7a0-4ee8-9ae9-fd7dd4dd28df")
 	)
@@ -25042,6 +25084,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "eb1bde8a-efed-425f-aec4-28f0e154676c")
 	)
@@ -25050,6 +25093,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
+		(tenting front back)
 		(net 22)
 		(uuid "feba44d1-fddb-4f7a-b469-d1599c2372cb")
 	)
