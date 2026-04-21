@@ -10,11 +10,12 @@
 ## How OpenBMS Load fits into system?
 
 Battery system consists of:
-- 2 to 7-cell Li-ion/Li-po battery
-- OpenBMS, more at [OpenBMS-hardware](https://github.com/open-batt/openbms-hardware)
-- Host (I2C/CAN interfaces, wake-up signal)
-- OpenBMS Load, 600W resistive load
-- Charger
+
+- Li-ion/Li-po battery - your custom 2 to 7-cell battery
+- [OpenBMS](https://github.com/open-batt/openbms-hardware)
+- Host - I2C/CAN interfaces, wake-up signal, can be a microcontroller, computer, etc.
+- Load - your piece of equipment that draws energy from the battery. In this case, we provide OpenBMS-load-hardware, a 600W resistive load for easier BMS development and testing
+- Charger - your custom charger, usually a CC/CV charger adjusted to your battery voltage and current
 
 <img src="images/openbms_system.jpg" alt="OpenBMS v3" width="80%" />
 <img src="images/openbms_system_discharging.jpg" alt="OpenBMS v3" width="80%" />
