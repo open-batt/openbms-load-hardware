@@ -3,7 +3,7 @@
 ![Hardware](https://img.shields.io/badge/hardware-KiCAD-314CB0)
 ![License](https://img.shields.io/badge/license-CERN--OHL--S--v2-7c5cbf)
 
-**OpenBMS Load** is a hardware design of a resistive load used for battery discharging. Its main purpose is for testing battery management system (BMS) during charge and discharge cycles.
+**OpenBMS Load** is a hardware design of a resistive load used for battery discharging. Its main purpose is testing the battery management system (BMS) during charge and discharge cycles.
 
 <img src="images/openbms-load-v1.png" alt="OpenBMS v3" width="80%" />
 
